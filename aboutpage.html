@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan Barkes | About</title>
+    <link rel="stylesheet" href="./CSS/basestyles.css">
+</head>
+<body>
+
+    <!-- WEBSITE-LOADER -->
+<div>   
+<div class="app-loader">
+    <div class="spinner">
+        <div class="double-bounce1 mat-bg-primary"></div>
+        <div class="double-bounce2 mat-bg-accent"></div>
+    </div>
+    </div>
+</div>
+
+    <!-- SCREEN LOADER -->
+<div class="loader-screen"></div>
+   
+    <!-- NAV-BAR -->
+<nav class="navbar">
+    <img class="me" src="Images/me.jpg">
+    <div class="brand-title">Dan Barkes</div>
+    <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+        <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="contactpage.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<script src="./JS/navbarlinks.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  <script>
+      setTimeout(() => {
+        $('.app-loader').fadeToggle();
+      }, 1500);
+  </script>
+
+   <script>
+      setTimeout(() => {
+        $('.loader-screen').fadeToggle();
+      }, 1500);
+   </script>
+
+
+</body>
+</html>
